@@ -23,7 +23,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #222;
+  background: rgb(112, 91, 91);
   color: ##b43c3c;
   text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
   font: 11px 'Futura', 'Trebuchet MS', "Arial", sans-serif;
