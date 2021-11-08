@@ -23,10 +23,10 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(112, 91, 91);
-  color: ##b43c3c;
+  background: #222;
+  color: #adadad;
   text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
-  font: 11px 'Futura', 'Trebuchet MS', "Arial", sans-serif;
+  font: 12px 'futura', 'Trebuchet MS', "Arial", sans-serif;
 }
 
 p, #userinfo_stats li:last-child {
