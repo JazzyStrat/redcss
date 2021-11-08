@@ -26,7 +26,7 @@ body {
   background: #222;
   color: #b1b1b1;
   text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.3);
-  font: 14px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
+  font: 16px 'Roboto', 'Trebuchet MS', "Arial", sans-serif;
 }
 
 p, #userinfo_stats li:last-child {
