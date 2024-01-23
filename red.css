@@ -1,6 +1,11 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Terminal+Dosis');
 
+@font-face {
+    font-family: GraublauWeb;
+    src: url("https://jazzystrat.github.io/redcss/Geist-Medium.otf") format("opentype");
+}
+
 #torrents .torrent_table .group td:nth-of-type(5),
 #torrents .torrent_table .group td:nth-of-type(4), 
 #torrents .torrent_table .group td:nth-of-type(6),
@@ -2310,7 +2315,7 @@ position: relative;
 #torrent_table.torrent_table .torrent .group_image, #torrent_table .torrent .group_image img { border-radius: unset; width: 65px !important; background: unset; box-shadow: unset; max-width: 65px !important; }
 #torrent_table.torrent_table .torrent .group_image img {  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, .2); }
 .group_image img {
-	/* border-radius: 45px; */
+	border-radius: 45px;
 	transition: transform 200ms ease;
 	transition-timing-function:cubic-bezier;
 	z-index: 1;
