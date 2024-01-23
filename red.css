@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Terminal+Dosis');
 
 @font-face {
-    font-family: GraublauWeb;
+    font-family: Geist-medium;
     src: url("https://jazzystrat.github.io/redcss/Geist-Medium.otf") format("opentype");
 }
 
@@ -41,7 +41,7 @@ html {
 
 body {
 	width: 100%;
-	font-family: 'Noto Sans', Arial, sans-serif;
+	font-family: 'Geist-medium', Arial, sans-serif;
 	font-size: 10pt;
 	color: #898f95;
 	min-width: 950px;
