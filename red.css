@@ -265,8 +265,8 @@ ul.thin li {
   -webkit-animation-direction: alternate;
   -webkit-animation-timing-function:cubic-bezier;
   -webkit-animation-iteration-count: infinite;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: https://jazzystrat.github.io/redcss/red.csshttps://jazzystrat.github.io/redcss/red.css3px;
 }
 
 #extra1:before, #extra1:after, #extra2:before, #extra2:after, #extra3:before, #extra3:after, #extra4:before, #extra4:after, #extra5:before, #extra5:after {
@@ -1934,48 +1934,7 @@ ul.poll li.graph {
 
 
 .hide_torrents, .show_torrents {
-	/* border-radius: 42px; */
-	display: block;
-	position: relative;
-	overflow: hidden;
-	width: 27px;
-	height: 27px;
-	font-size: 0;
-	text-indent: -9999px;
-	cursor: pointer;
-	transition: all 0.3s !important;
-}
-.hide_torrents:focus, .show_torrents:focus {
-	outline: none;
-}
-
-.show_torrents_link {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.show_torrents_link::before, .show_torrents_link::after {
-  transition-duration: 0.3s, 0.3s;
-  transition-delay: 0.3s, 0s;
-	position: absolute;
-	display: block;
-	left: 3px;
-	top: 12px;
-	width: 22px;
-	height: 4px;
-	background: #555;
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, .4);
-	content: "";
-}
-
-.show_torrents_link::before { transition-property: top, transform; transform: rotate(90deg);}
-.show_torrents_link::after { transition-property: bottom, transform;}
-/*
-.show_torrents { background-color: #c8b3b8; border: 1px solid #9d88a3; }
+	/* border: 1px solid #9d88a3; }
 .hide_torrents { background-color: #b3bdc8; border: 1px solid #8895a3; }
 */
 .hide_torrents .show_torrents_link {
@@ -2351,7 +2310,7 @@ position: relative;
 #torrent_table.torrent_table .torrent .group_image, #torrent_table .torrent .group_image img { border-radius: unset; width: 65px !important; background: unset; box-shadow: unset; max-width: 65px !important; }
 #torrent_table.torrent_table .torrent .group_image img {  box-shadow: 1px 1px 6px 4px rgba(0, 0, 0, .2); }
 .group_image img {
-	border-radius: 45px;
+	border-radius: 0;
 	transition: transform 200ms ease;
 	transition-timing-function:cubic-bezier;
 	z-index: 1;
